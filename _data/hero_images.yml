@@ -16,25 +16,25 @@
 #   position: center
 #
 - image: /assets/images/hero/mount-kenya-flora.jpg
-  alt: Flora in the Mount Kenya region (photo: Beni Brem, 2024)
+  alt: "Flora in the Mount Kenya region (photo: Beni Brem, 2024)"
   position: center 35%
 
 - image: /assets/images/hero/mount-kenya-gaw-station.jpg
-  alt: Global GAW station Mount Kenya (photo: Beni Brem, 2024)
+  alt: "Global GAW station Mount Kenya (photo: Beni Brem, 2024)"
   position: center 35%
 
 - image: /assets/images/hero/mount-kenya-measurement-field.jpg
-  alt: Measurement field at the Global GAW station Mount Kenya (photo: Jörg Klausen)
+  alt: "Measurement field at the Global GAW station Mount Kenya (photo: Jörg Klausen)"
   position: center 35%
 
 - image: /assets/images/hero/mount-kenya-mountain-view.jpg
-  alt: Mountain view in the Mount Kenya region (photo: Beni Brem, 2024)
+  alt: "Mountain view in the Mount Kenya region (photo: Beni Brem, 2024)"
   position: center 35%
 
 - image: /assets/images/hero/mount-kenya-towards-old-moses.jpg
-  alt: View from the Global GAW station Mount Kenya (photo: Beni Brem, 2024)
+  alt: "View from the Global GAW station Mount Kenya (photo: Beni Brem, 2024)"
   position: center 35%
 
 - image: /assets/images/hero/mount-kenya-towards-summit.jpg
-  alt: Mountain view in the Mount Kenya region (photo: Jörg Klausen)
+  alt: "Mountain view in the Mount Kenya region (photo: Jörg Klausen)"
   position: center 35%

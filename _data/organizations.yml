@@ -1,0 +1,8 @@
+# Add participating organizations here. Logos should normally be PNG, SVG, or WebP
+# files placed under /assets/images/logos/.
+#
+# Example:
+# - name: Example Organization
+#   logo: /assets/images/logos/example-organization.svg
+#   url: https://example.org
+[]

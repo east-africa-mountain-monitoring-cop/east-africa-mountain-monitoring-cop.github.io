@@ -1,0 +1,24 @@
+# Symposium programme data.
+# Leave this file as an empty list until the programme is ready.
+#
+# Example structure:
+#
+# - day: "Day 1"
+#   date: "YYYY-MM-DD"
+#   items:
+#     - time: "09:00"
+#       end: "09:30"
+#       title: "Opening"
+#       type: "plenary"
+#       speaker: ""
+#       location: ""
+#       description: ""
+#
+#     - time: "09:30"
+#       end: "10:30"
+#       title: "Session title"
+#       type: "session"
+#       speaker: ""
+#       location: ""
+#       description: ""
+[]

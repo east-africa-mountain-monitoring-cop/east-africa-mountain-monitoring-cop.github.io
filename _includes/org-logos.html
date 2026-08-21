@@ -1,0 +1,17 @@
+{% if site.data.organizations and site.data.organizations.size > 0 %}
+  <div class="logo-grid">
+    {% for org in site.data.organizations %}
+      <a class="logo-card" href="{{ org.url }}" title="{{ org.name }}">
+        {% if org.logo and org.logo != '' %}
+          <img src="{{ org.logo | relative_url }}" alt="{{ org.name }} logo">
+        {% else %}
+          <span>{{ org.name }}</span>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="empty-state">
+    <p>Partner and participating-organization logos can be added here by editing <code>_data/organizations.yml</code> and uploading logo files to <code>assets/images/logos/</code>.</p>
+  </div>
+{% endif %}

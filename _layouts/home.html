@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<section class="hero{% unless site.hero_image and site.hero_image != '' %} hero--fallback{% endunless %}"
+  {% if site.hero_image and site.hero_image != '' %}
+    style="background-image: linear-gradient(90deg, rgba(9,35,45,.82), rgba(9,35,45,.42)), url('{{ site.hero_image | relative_url }}');"
+  {% endif %}>
+  <div class="container hero__content">
+    <p class="eyebrow">East Africa</p>
+    <h1>{{ site.title }}</h1>
+    <p class="hero__lead">{{ page.lead }}</p>
+    <div class="button-row">
+      <a class="button" href="{{ '/symposium/' | relative_url }}">GEOMountain Symposium</a>
+      <a class="button button--secondary" href="{{ '/about/' | relative_url }}">About the CoP</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container prose prose--wide">
+    {{ content }}
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Updates</p>
+        <h2>News</h2>
+      </div>
+      <a class="text-link" href="{{ '/news/' | relative_url }}">All news →</a>
+    </div>
+
+    {% if site.posts.size > 0 %}
+      <div class="card-grid">
+        {% for post in site.posts limit:3 %}
+          <article class="card">
+            <p class="meta">{{ post.date | date: "%-d %B %Y" }}</p>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <p>News items will appear here. Short updates can be added as Markdown posts; working material and longer collaborative notes can live in the GitHub wiki.</p>
+      </div>
+    {% endif %}
+
+    {% if site.wiki_url and site.wiki_url != '' %}
+      <p class="section-action"><a class="button button--outline" href="{{ site.wiki_url }}">Open the CoP wiki</a></p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Activities</p>
+    <div class="feature">
+      <div>
+        <h2>GEOMountain Symposium</h2>
+        <p>The symposium is one activity of the Community of Practice: a place to meet, share monitoring experience, develop common approaches and identify opportunities for collaboration.</p>
+      </div>
+      <a class="button" href="{{ '/symposium/' | relative_url }}">Symposium space</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <p class="eyebrow">Community</p>
+    <h2>Participating organizations</h2>
+    {% include org-logos.html %}
+  </div>
+</section>

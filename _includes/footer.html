@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>{{ site.title }}</strong>
+      <p>Collaboration for sustained mountain monitoring in East Africa.</p>
+    </div>
+    <div class="footer-links">
+      {% if site.repository_url and site.repository_url != '' %}<a href="{{ site.repository_url }}">GitHub repository</a>{% endif %}
+      {% if site.wiki_url and site.wiki_url != '' %}<a href="{{ site.wiki_url }}">Wiki</a>{% endif %}
+      {% if site.contact_email and site.contact_email != '' %}<a href="mailto:{{ site.contact_email }}">Contact</a>{% endif %}
+    </div>
+  </div>
+</footer>

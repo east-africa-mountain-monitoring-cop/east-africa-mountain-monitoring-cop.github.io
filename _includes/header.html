@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand__mark" aria-hidden="true">▲</span>
+      <span>{{ site.short_title }}</span>
+    </a>
+
+    <nav class="nav" aria-label="Main navigation">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}"
+           {% if page.url == item.url or page.url contains item.url and item.url != '/' %}class="active"{% endif %}>
+          {{ item.title }}
+        </a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

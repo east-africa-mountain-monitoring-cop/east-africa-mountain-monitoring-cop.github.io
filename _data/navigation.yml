@@ -1,0 +1,20 @@
+- title: Home
+  url: /
+
+- title: News
+  url: /news/
+
+- title: Symposium
+  url: /symposium/
+  children:
+    - title: Overview
+      url: /symposium/
+    - title: Programme
+      url: /symposium/program/
+    - title: Registration
+      url: /symposium/registration/
+    - title: Abstract submission
+      url: /symposium/abstracts/
+
+- title: About
+  url: /about/

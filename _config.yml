@@ -12,7 +12,7 @@ repository_url: "https://github.com/east-africa-mountain-monitoring-cop/east-afr
 wiki_url: "https://github.com/east-africa-mountain-monitoring-cop/east-africa-mountain-monitoring-cop.github.io/wiki"
 # Optional. Leave empty until a main photo has been added.
 # Example: /assets/images/hero/mount-kenya.jpg
-hero_image: ""
+hero_image: "/assets/images/hero/mount-kenya-towards-old-moses.jpeg"
 
 # Optional symposium form links. Leave empty until forms are ready.
 symposium_registration_url: ""

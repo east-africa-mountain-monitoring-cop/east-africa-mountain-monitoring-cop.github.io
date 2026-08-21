@@ -1,0 +1,22 @@
+# Rotating hero images for the home page.
+#
+# Upload the corresponding files to /assets/images/hero/.
+# Images are shown in this order, changing every 10 seconds.
+#
+# "position" is optional and controls which part of the image remains visible
+# when it is cropped to fill the hero area. Typical values:
+#   center
+#   center 35%
+#   50% 30%
+#
+# Example:
+#
+# - image: /assets/images/hero/mount-kenya-01.jpg
+#   alt: Mount Kenya
+#   position: center
+#
+# - image: /assets/images/hero/mount-kenya-02.jpg
+#   alt: Atmospheric monitoring in the Mount Kenya region
+#   position: center 35%
+
+[]

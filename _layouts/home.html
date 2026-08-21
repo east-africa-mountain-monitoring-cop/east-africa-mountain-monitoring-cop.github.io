@@ -1,14 +1,36 @@
 ---
 layout: default
 ---
-<section class="hero{% unless site.hero_image and site.hero_image != '' %} hero--fallback{% endunless %}"
-  {% if site.hero_image and site.hero_image != '' %}
-    style="background-image: linear-gradient(90deg, rgba(9,35,45,.82), rgba(9,35,45,.42)), url('{{ site.hero_image | relative_url }}');"
-  {% endif %}>
+
+{% assign hero_images = site.data.hero_images %}
+
+<section
+  class="hero hero-slider{% if hero_images == nil or hero_images.size == 0 %} hero--fallback{% endif %}"
+  id="hero-slider"
+>
+  {% if hero_images and hero_images.size > 0 %}
+    <div class="hero-slider__images" aria-hidden="true">
+      {% for hero in hero_images %}
+        <div
+          class="hero-slide{% if forloop.first %} hero-slide--active{% endif %}"
+          style="
+            background-image:
+              linear-gradient(90deg, rgba(9,35,45,.82), rgba(9,35,45,.42)),
+              url('{{ hero.image | relative_url }}');
+            {% if hero.position and hero.position != '' %}
+              background-position: {{ hero.position }};
+            {% endif %}
+          "
+        ></div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
   <div class="container hero__content">
     <p class="eyebrow">East Africa</p>
     <h1>{{ site.title }}</h1>
     <p class="hero__lead">{{ page.lead }}</p>
+
     <div class="button-row">
       <a class="button" href="{{ '/symposium/' | relative_url }}">GEOMountain Symposium</a>
       <a class="button button--secondary" href="{{ '/about/' | relative_url }}">About the CoP</a>
@@ -74,3 +96,26 @@ layout: default
     {% include org-logos.html %}
   </div>
 </section>
+
+{% if hero_images and hero_images.size > 1 %}
+<script>
+  (() => {
+    const slider = document.getElementById("hero-slider");
+    if (!slider) return;
+
+    const slides = slider.querySelectorAll(".hero-slide");
+    if (slides.length < 2) return;
+
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    if (reducedMotion.matches) return;
+
+    let current = 0;
+
+    window.setInterval(() => {
+      slides[current].classList.remove("hero-slide--active");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("hero-slide--active");
+    }, 10000);
+  })();
+</script>
+{% endif %}

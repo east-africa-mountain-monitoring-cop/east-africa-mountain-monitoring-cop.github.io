@@ -21,4 +21,156 @@
 #       speaker: ""
 #       location: ""
 #       description: ""
-[]
+- day: "Day 0 - Arrival"
+  date: "2 February 2027"
+  items:
+    - time: "17:00"
+      end: "18:30"
+      title: "Registration"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "18:30"
+      end: "20:00"
+      title: "Ice Breaker and Welcome Reception"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+- day: "Day 1 - Symposium"
+  date: "3 February 2027"
+  items:
+    - time: "08:30"
+      end: "10:00"
+      title: "Opening"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "10:00"
+      end: "10:30"
+      title: "Tea/Coffee Break"
+
+    - time: "10:30"
+      end: "12:00"
+      title: "Presentations"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "12:00"
+      end: "13:30"
+      title: "Lunch Break"
+
+    - time: "13:30"
+      end: "15:00"
+      title: "Presentations"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "15:00"
+      end: "15:30"
+      title: "Tea/Coffee Break"
+
+    - time: "15:30"
+      end: "17:00"
+      title: "Presentations"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "17:00"
+      end: "17:30"
+      title: "Summary & Conclusions"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "18:30"
+      end: "20:00"
+      title: "Dinner"
+      description: ""
+
+- day: "Day 2 - Symposium and Workshop"
+  date: "4 February 2027"
+  items:
+    - time: "08:30"
+      end: "10:00"
+      title: "Session"
+      type: "plenary"
+      speaker: ""
+
+      description: ""
+
+    - time: "10:00"
+      end: "10:30"
+      title: "Tea/Coffee Break"
+
+    - time: "10:30"
+      end: "12:00"
+      title: "Session"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "12:00"
+      end: "13:30"
+      title: "Lunch Break"
+
+    - time: "13:30"
+      end: "15:00"
+      title: "Community of Practice: Scope and Objectives"
+      type: "plenary / topcial workshops"
+      speaker: ""
+      description: ""
+
+    - time: "15:00"
+      end: "15:30"
+      title: "Tea/Coffee Break"
+
+    - time: "15:30"
+      end: "17:00"
+      title: "Community of Practice: Working Groups and Initial Activities"
+      type: "plenary / topcial workshops"
+      speaker: ""
+      description: ""
+
+    - time: "17:00"
+      end: "17:30"
+      title: "Reports from Workshops and Way Forward"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "17:30"
+      end: "18:30"
+      title: "Synthesis, Conclusions and Closure of Symposium"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "18:30"
+      end: "20:00"
+      title: "Dinner"
+
+- day: "Day 3 - Excursion and Departure"
+  date: "5 February 2027"
+  items:
+    - time: "08:00"
+      end: "14:00"
+      title: "Excursion to Mount Kenya GAW station"
+      location: "Mount Kenya National Park"
+      description: "Leave from the hotel at 08:00 and return by 14:00. The excursion will include a short hike from Old Moses Camp to the GAW station (45'), a visit and explanations on site, and an opportunity to observe the local flora and fauna on the way. A light lunch will be served at the station"
+
+    - time: "14:00"
+      end: "15:00"
+      title: "Preparation for Departure"
+      description: "Participants will have time to freshen up, and prepare for departure."
+
+    - time: "15:00"
+      end: "19:00"
+      title: "Departure to Nairobi and onward travel"
+      description: "Buses will leave from the hotel at 15:00 to Nairobi, with an expected arrival at 19:00. Participants can then proceed to the airport for their onward travel."
+

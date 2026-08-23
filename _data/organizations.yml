@@ -8,6 +8,7 @@
 - name: Kenya Meteorological Department
   logo: /assets/images/logos/kmd-logo.png
   url: https://meteo.go.ke/
+
 - name: Federal Office of Meteorology and Climatology MeteoSwiss  
   logo: /assets/images/logos/mch-logo.svg
   url: https://www.meteoswiss.admin.ch

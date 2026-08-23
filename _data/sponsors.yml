@@ -1,0 +1,18 @@
+# Co-sponsors of the GEOMountain Symposium.
+#
+# Upload logo files to /assets/images/logos/ and add one entry per co-sponsor.
+# SVG is preferred when available; PNG also works well.
+#
+# Example:
+#
+# - name: Example Organization
+#   logo: /assets/images/logos/example-organization.svg
+#   url: https://example.org
+#
+- name: GEOMountain Small Grants Program
+  logo: /assets/images/logos/geomountains-logo.svg
+  url: https://geomountains.org/category/geo-mountains/
+
+- name: Kenya Meteorological Department
+  logo: /assets/images/logos/kmd-logo.png
+  url: https://meteo.go.ke/

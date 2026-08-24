@@ -153,15 +153,16 @@
       location: "Mount Kenya National Park"
       description: "Leave from the hotel at 08:00 and return by 14:00. The excursion will include a short hike from Old Moses Camp to the GAW station (45'), a visit and explanations on site, and an opportunity to observe the local flora and fauna on the way. A light lunch will be served at the station"
 
+    - time: "14:00"
+      end: "15:00"
+      title: "Tea/Coffee Break"
+      description: "Freshen up, and prepare for departure or continuation of Symposium."
+      title: "Parallel sessions"
+      type: "parallel"
       tracks:
         - name: "Departure"
           title: "Excursion and departure"
           items:
-            - time: "14:00"
-              end: "15:00"
-              title: "Tea/Coffee Break - Preparation for Departure"
-              description: "Freshen up, and prepare for departure."
-
             - time: "15:00"
               end: "19:00"
               title: "Departure to Nairobi and onward travel"
@@ -170,11 +171,6 @@
         - name: "Symposium"
           title: "Excursion and Symposium"
           items:
-            - time: "14:00"
-              end: "15:00"
-              title: "Tea/Coffee Break - Freshen Up for Symposium Participants"
-              description: "Freshen up, and prepare for Symposium Session."
-
             - time: "15:00"
               end: "16:30"
               title: "Session"
@@ -193,9 +189,9 @@
               speaker: ""
               description: ""
 
-            - time: "19:00"
-              end: "20:30"
-              title: "Dinner"
+    - time: "19:00"
+      end: "20:30"
+      title: "Dinner"
 
 - day: "Day 3 - Eastablishing a Community of Practice"
   date: "5 February 2027"

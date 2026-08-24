@@ -93,70 +93,8 @@
       title: "Dinner"
       description: ""
 
-- day: "Day 2 - Symposium and Workshop"
+- day: "Day 2 - Excursion and Departure"
   date: "4 February 2027"
-  items:
-    - time: "08:30"
-      end: "10:00"
-      title: "Session"
-      type: "plenary"
-      speaker: ""
-
-      description: ""
-
-    - time: "10:00"
-      end: "10:30"
-      title: "Tea/Coffee Break"
-
-    - time: "10:30"
-      end: "12:00"
-      title: "Session"
-      type: "plenary"
-      speaker: ""
-      description: ""
-
-    - time: "12:00"
-      end: "13:30"
-      title: "Lunch Break"
-
-    - time: "13:30"
-      end: "15:00"
-      title: "Community of Practice: Scope and Objectives"
-      type: "plenary / topcial workshops"
-      speaker: ""
-      description: ""
-
-    - time: "15:00"
-      end: "15:30"
-      title: "Tea/Coffee Break"
-
-    - time: "15:30"
-      end: "17:00"
-      title: "Community of Practice: Working Groups and Initial Activities"
-      type: "plenary / topcial workshops"
-      speaker: ""
-      description: ""
-
-    - time: "17:00"
-      end: "17:30"
-      title: "Reports from Workshops and Way Forward"
-      type: "plenary"
-      speaker: ""
-      description: ""
-
-    - time: "17:30"
-      end: "18:30"
-      title: "Synthesis, Conclusions and Closure of Symposium"
-      type: "plenary"
-      speaker: ""
-      description: ""
-
-    - time: "18:30"
-      end: "20:00"
-      title: "Dinner"
-
-- day: "Day 3 - Excursion and Departure"
-  date: "5 February 2027"
   items:
     - time: "08:00"
       end: "14:00"
@@ -166,11 +104,74 @@
 
     - time: "14:00"
       end: "15:00"
-      title: "Preparation for Departure"
-      description: "Participants will have time to freshen up, and prepare for departure."
+      title: "Tea/Coffee Break - Preparation for Departure / Freshen Up for Symposium Participants"
+      description: "Freshen up, and prepare for departure or for Symposium Session."
 
     - time: "15:00"
       end: "19:00"
+      title: "Departure to Nairobi and onward travel / Symposium"
+      description: "Bus will leave from the hotel at 15:00 to Nairobi, with an expected arrival at 19:00. Participants can then proceed to the airport for their onward travel."
+
+    - time: "15:00"
+      end: "16:30"
+      title: "Session"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "16:30"
+      end: "17:00"
+      title: "Tea/Coffee Break"
+
+    - time: "17:00"
+      end: "18:30"
+      title: "Synthesis, Conclusions and Closure of Symposium"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "19:00"
+      end: "20:30"
+      title: "Dinner"
+
+- day: "Day 3 - Eastablishing a Community of Practice"
+  date: "5 February 2027"
+  items:
+    - time: "08:00"
+      end: "10:00"
+      title: "Community of Practice: Scope and Objectives"
+      type: "plenary / topcial workshops"
+      speaker: ""
+      description: ""
+
+    - time: "10:00"
+      end: "10:30"
+      title: "Tea/Coffee Break"
+
+    - time: "10:30"
+      end: "12:00"
+      title: "Community of Practice: Working Groups and Initial Activities"
+      type: "plenary / topcial workshops"
+      speaker: ""
+      description: ""
+
+    - time: "12:00"
+      end: "13:00"
+      title: "Lunch Break"
+
+    - time: "13:00"
+      end: "14:30"
+      title: "Reports from Workshops and Way Forward, Closure of Workshop"
+      type: "plenary"
+      speaker: ""
+      description: ""
+
+    - time: "14:30"
+      end: "15:30"
+      title: "Tea/Coffee Break - Preparation for Departure"
+
+    - time: "15:30"
+      end: "19:30"
       title: "Departure to Nairobi and onward travel"
-      description: "Buses will leave from the hotel at 15:00 to Nairobi, with an expected arrival at 19:00. Participants can then proceed to the airport for their onward travel."
+      description: "Bus will leave from the hotel at 15:30 to Nairobi, with an expected arrival at 19:30. Participants can then proceed to the airport for their onward travel."
 

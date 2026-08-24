@@ -155,19 +155,13 @@
 
     - time: "14:00"
       end: "15:00"
-      title: "Tea/Coffee Break"
-      description: "Freshen up, and prepare for departure or continuation of Symposium."
-      title: "Parallel sessions"
+      title: "Tea/Coffee Break and preparation for departure or continuation of Symposium"
+
+    - time: "15:00"
+      end: "20:30"
+      title: "Symposium or Return to Nairobi and onward travel"
       type: "parallel"
       tracks:
-        - name: "Departure"
-          title: "Excursion and departure"
-          items:
-            - time: "15:00"
-              end: "19:00"
-              title: "Departure to Nairobi and onward travel"
-              description: "Bus will leave from the hotel at 15:00 to Nairobi, with an expected arrival at 19:00. Participants can then proceed to the airport for their onward travel."
-
         - name: "Symposium"
           title: "Excursion and Symposium"
           items:
@@ -189,9 +183,17 @@
               speaker: ""
               description: ""
 
-    - time: "19:00"
-      end: "20:30"
-      title: "Dinner"
+            - time: "19:00"
+              end: "20:30"
+              title: "Dinner"
+
+        - name: "Return to Nairobi"
+          title: "Excursion and departure"
+          items:
+            - time: "15:00"
+              end: "19:00"
+              title: "Departure to Nairobi and onward travel"
+              description: "Bus will leave from the hotel at 15:00 to Nairobi, with an expected arrival at 19:00. Participants can then proceed to the airport for their onward travel."
 
 - day: "Day 3 - Eastablishing a Community of Practice"
   date: "5 February 2027"

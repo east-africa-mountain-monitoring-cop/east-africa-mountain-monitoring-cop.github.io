@@ -1,7 +1,7 @@
 # Symposium programme data.
-# Leave this file as an empty list until the programme is ready.
 #
-# Example structure:
+# Normal full-width programme entry
+# ---------------------------------
 #
 # - day: "Day 1"
 #   date: "YYYY-MM-DD"
@@ -14,13 +14,65 @@
 #       location: ""
 #       description: ""
 #
-#     - time: "09:30"
-#       end: "10:30"
-#       title: "Session title"
-#       type: "session"
-#       speaker: ""
-#       location: ""
-#       description: ""
+#
+# Parallel streams with independent timelines
+# -------------------------------------------
+#
+# A parallel block defines the overall time window. Each track then contains
+# its own independently timed list of programme items.
+#
+# Example:
+#
+#     - time: "11:00"
+#       end: "12:30"
+#       title: "Parallel sessions"
+#       type: "parallel"
+#       tracks:
+#         - name: "Stream A"
+#           title: "Climate observations"
+#           location: "Main Hall"
+#           chair: ""
+#           items:
+#             - time: "11:00"
+#               end: "11:20"
+#               title: "Presentation A1"
+#               speaker: ""
+#               description: ""
+#             - time: "11:20"
+#               end: "11:40"
+#               title: "Presentation A2"
+#               speaker: ""
+#               description: ""
+#             - time: "11:40"
+#               end: "12:30"
+#               title: "Discussion"
+#               speaker: ""
+#               description: ""
+#
+#         - name: "Stream B"
+#           title: "Atmospheric composition"
+#           location: "Meeting Room"
+#           chair: ""
+#           items:
+#             - time: "11:00"
+#               end: "11:30"
+#               title: "Presentation B1"
+#               speaker: ""
+#               description: ""
+#             - time: "11:30"
+#               end: "12:00"
+#               title: "Presentation B2"
+#               speaker: ""
+#               description: ""
+#             - time: "12:00"
+#               end: "12:30"
+#               title: "Discussion"
+#               speaker: ""
+#               description: ""
+#
+# The streams do not need to use identical sub-times. The outer time/end simply
+# identifies the overall parallel-session window.
+#
 - day: "Day 0 - Arrival"
   date: "2 February 2027"
   items:
@@ -30,7 +82,6 @@
       type: "plenary"
       speaker: ""
       description: ""
-
     - time: "18:30"
       end: "20:00"
       title: "Ice Breaker and Welcome Reception"
@@ -93,7 +144,7 @@
       title: "Dinner"
       description: ""
 
-- day: "Day 2 - Excursion and Departure"
+- day: "Day 2 - Excursion and Symposium Closure"
   date: "4 February 2027"
   items:
     - time: "08:00"
@@ -102,37 +153,49 @@
       location: "Mount Kenya National Park"
       description: "Leave from the hotel at 08:00 and return by 14:00. The excursion will include a short hike from Old Moses Camp to the GAW station (45'), a visit and explanations on site, and an opportunity to observe the local flora and fauna on the way. A light lunch will be served at the station"
 
-    - time: "14:00"
-      end: "15:00"
-      title: "Tea/Coffee Break - Preparation for Departure / Freshen Up for Symposium Participants"
-      description: "Freshen up, and prepare for departure or for Symposium Session."
+      tracks:
+        - name: "Departure"
+          title: "Excursion and departure"
+          items:
+            - time: "14:00"
+              end: "15:00"
+              title: "Tea/Coffee Break - Preparation for Departure"
+              description: "Freshen up, and prepare for departure."
 
-    - time: "15:00"
-      end: "19:00"
-      title: "Departure to Nairobi and onward travel / Symposium"
-      description: "Bus will leave from the hotel at 15:00 to Nairobi, with an expected arrival at 19:00. Participants can then proceed to the airport for their onward travel."
+            - time: "15:00"
+              end: "19:00"
+              title: "Departure to Nairobi and onward travel"
+              description: "Bus will leave from the hotel at 15:00 to Nairobi, with an expected arrival at 19:00. Participants can then proceed to the airport for their onward travel."
 
-    - time: "15:00"
-      end: "16:30"
-      title: "Session"
-      type: "plenary"
-      speaker: ""
-      description: ""
+        - name: "Symposium"
+          title: "Excursion and Symposium"
+          items:
+            - time: "14:00"
+              end: "15:00"
+              title: "Tea/Coffee Break - Freshen Up for Symposium Participants"
+              description: "Freshen up, and prepare for Symposium Session."
 
-    - time: "16:30"
-      end: "17:00"
-      title: "Tea/Coffee Break"
+            - time: "15:00"
+              end: "16:30"
+              title: "Session"
+              type: "plenary"
+              speaker: ""
+              description: ""
 
-    - time: "17:00"
-      end: "18:30"
-      title: "Synthesis, Conclusions and Closure of Symposium"
-      type: "plenary"
-      speaker: ""
-      description: ""
+            - time: "16:30"
+              end: "17:00"
+              title: "Bio Break"
 
-    - time: "19:00"
-      end: "20:30"
-      title: "Dinner"
+            - time: "17:00"
+              end: "18:30"
+              title: "Synthesis, Conclusions and Closure of Symposium"
+              type: "plenary"
+              speaker: ""
+              description: ""
+
+            - time: "19:00"
+              end: "20:30"
+              title: "Dinner"
 
 - day: "Day 3 - Eastablishing a Community of Practice"
   date: "5 February 2027"
@@ -174,4 +237,3 @@
       end: "19:30"
       title: "Departure to Nairobi and onward travel"
       description: "Bus will leave from the hotel at 15:30 to Nairobi, with an expected arrival at 19:30. Participants can then proceed to the airport for their onward travel."
-

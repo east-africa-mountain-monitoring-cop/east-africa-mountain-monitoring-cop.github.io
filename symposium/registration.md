@@ -18,7 +18,10 @@ Add practical registration information here: eligibility, fees if any, deadlines
 <a class="button" href="{{ site.symposium_registration_url }}">Open registration form</a>
 {% else %}
 <div class="empty-state">
-  <strong>Registration is not open yet.</strong>
+  <strong>Registration form</strong>
+  <div class="form-embed-wrap">
+    <iframe class="google-form-iframe" title="GEOMountain Symposium registration form" src="https://docs.google.com/forms/d/e/1FAIpQLScyCnqf-l1whtEzzIMwdY3q1Z2tUEN2Q5w8PDN9FZChZCBJrA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
   <p>When the form is ready, add its URL to <code>symposium_registration_url</code> in <code>_config.yml</code>.</p>
 </div>
 {% endif %}

@@ -175,6 +175,27 @@ img { max-width: 100%; height: auto; }
 .prose p,
 .prose li { font-size: 1.05rem; }
 
+.empty-state {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form-embed-wrap {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: white;
+}
+
+.google-form-iframe {
+  display: block;
+  width: 100%;
+  min-height: 2800px;
+  border: 0;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;

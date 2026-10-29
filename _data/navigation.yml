@@ -13,8 +13,8 @@
       url: /symposium/program/
     - title: Registration
       url: /symposium/registration/
-    - title: Abstract submission
-      url: /symposium/abstracts/
+    # - title: Abstract submission
+    #   url: /symposium/abstracts/
 
 - title: About
   url: /about/

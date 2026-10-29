@@ -7,34 +7,25 @@ permalink: /symposium/registration/
 <div class="page-header page-header--symposium">
   <div class="container">
     <p class="eyebrow">GEOMountain Symposium</p>
-    <h1>Registration</h1>
+    <h1>Registration & Abstract submission</h1>
   </div>
 </div>
 
 <div class="container prose" markdown="1">
 
-### Registration overview
+<p>Welcome! Use this page to register for the upcoming **GEOMountain Symposium**. The symposium is open to a maximum of 60 participants.  We invite academics, field researchers, policy stakeholders, local practitioners and students working on East African mountain environments to register.</p>
 
-Welcome! Use this page to register for the upcoming **GEOMountain Symposium**.
-
-**Eligibility:**  
-Open to academics, field researchers, policy stakeholders, local practitioners and students working on East African mountain environments.
-
-**Registration:**  
-<!-- Standard Delegate **$1050 USD** | Student Rate **$275 USD** *(Institutional ID required)*. -->
+<p>There will is no registration fee. Lunch and coffee/tea breaks will be provided. Otherwise, participants are expected to fund themselves.</p>
 
 **Financial support:**  
-A limited number of travel grants and registration fee waivers may be available.
 
-**Important deadlines:**
+<p>A very limited number of grants is available for travel and subsistence and reserved for students/ junior academic researchers. These grants will be awarded on a competitive basis.</p>
+<p>To apply for support, one must submit an abstract through the portal, including a paragraph ("motivation letter") to explain why you believe you should be supported, how the symposium / workshops will benefit from from your participation, and/or how your participation will benefit your home institution. Make sure to have this motivation letter ready and add it as part of your abstract before you start the registration.</p>
 
-- **Early Bird Registration Closes:** December 1, 2026
-- **Final Registration Deadline:** January 20, 2027
+**Important dates:**
 
-**Data protection:**  
-All submitted details will be handled securely and used only for purposes related to symposium registration, organization and communication.
-
-## Complete the registration form
+- **Abstract submission closes:** November 27, 2026
+- **Registration closes:** December 24, 2027
 
 {% if site.symposium_registration_url and site.symposium_registration_url != '' %}
 <div class="cta-block">
@@ -48,6 +39,6 @@ All submitted details will be handled securely and used only for purposes relate
 </div>
 {% endif %}
 
-<p>If you also wish to submit an abstract, please use the <a href="{{ '/symposium/abstracts/' | relative_url }}">abstract submission page</a>.</p>
+<!-- <p>If you also wish to submit an abstract, please use the <a href="{{ '/symposium/abstracts/' | relative_url }}">abstract submission page</a>.</p> !-->
 
 </div>

@@ -11,8 +11,8 @@ permalink: /symposium/
     <p>A meeting space within the East Africa Community of Practice on Mountain Monitoring.</p>
     <div class="button-row">
       <a class="button" href="{{ '/symposium/program/' | relative_url }}">Programme</a>
-      <a class="button button--secondary" href="{{ '/symposium/registration/' | relative_url }}">Registration</a>
-      <a class="button button--secondary" href="{{ '/symposium/abstracts/' | relative_url }}">Abstract submission</a>
+      <a class="button button--secondary" href="{{ '/symposium/registration/' | relative_url }}">Registration & Abstract submission</a>
+      <!--<a class="button button--secondary" href="{{ '/symposium/abstracts/' | relative_url }}">Abstract submission</a>!-->
     </div>
   </div>
 </div>
@@ -25,7 +25,8 @@ The symposium will highlight the long collaboration between Kenya and Switzerlan
 
 <div class="callout">
   <h3>Important dates</h3>
-  <p>Add confirmed deadlines here. Until then, this box can remain as a placeholder.</p>
+  <p>Deadline for abstract submission: 27 November, 2026</p>
+  <p>Deadline for registration: 24 December, 2026</p>
 </div>
 
 ## Themes

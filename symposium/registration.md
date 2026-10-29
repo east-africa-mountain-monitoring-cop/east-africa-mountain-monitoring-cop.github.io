@@ -34,8 +34,8 @@ permalink: /symposium/registration/
 </div>
 {% else %}
 <div class="empty-state">
-  <strong>Registration is not open yet.</strong>
-  <p>When the form is ready, add its URL to <code>symposium_registration_url</code> in <code>_config.yml</code>.</p>
+  <strong>Bear with us, registration will open soon ...</strong>
+  <!--<p>When the form is ready, add its URL to <code>symposium_registration_url</code> in <code>_config.yml</code>.</p>!-->
 </div>
 {% endif %}
 
